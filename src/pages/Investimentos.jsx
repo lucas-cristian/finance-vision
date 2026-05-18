@@ -5,7 +5,10 @@ export default function Investimentos() {
     <div>
       <section className="page-header">
         <div className="container">
-          <h1 className="page-header__title">Investimentos</h1>
+          <h1 className="page-header__title">
+            <i className="bi bi-graph-up-arrow" style={{ marginRight: '12px' }}></i>
+            Investimentos
+          </h1>
           <p className="page-header__breadcrumb">Home / Investimentos</p>
         </div>
       </section>
@@ -24,6 +27,7 @@ export default function Investimentos() {
             </p>
 
             <div className="highlight-box">
+              <i className="bi bi-lightbulb-fill" style={{ color: 'var(--color-accent)', marginRight: '8px' }}></i>
               <strong>Dica de Ouro:</strong> Nunca invista em algo que você não entenda. O conhecimento é o seu melhor ativo antes de colocar qualquer capital em risco.
             </div>
 
@@ -33,10 +37,10 @@ export default function Investimentos() {
               Ao investir nela, você está basicamente emprestando dinheiro para uma instituição (Banco ou Governo) 
               em troca de juros.
             </p>
-            <ul>
-              <li><strong>Tesouro Direto:</strong> Empréstimo para o governo federal.</li>
-              <li><strong>CDB:</strong> Certificado de Depósito Bancário.</li>
-              <li><strong>LCI/LCA:</strong> Letras de Crédito focadas em Imóveis ou Agronegócio.</li>
+            <ul style={{ listStyle: 'none', paddingLeft: 0 }}>
+              <li style={{ marginBottom: '8px' }}><i className="bi bi-bank" style={{ color: 'var(--color-accent)', marginRight: '8px' }}></i><strong>Tesouro Direto:</strong> Empréstimo para o governo federal.</li>
+              <li style={{ marginBottom: '8px' }}><i className="bi bi-shield-check" style={{ color: 'var(--color-accent)', marginRight: '8px' }}></i><strong>CDB:</strong> Certificado de Depósito Bancário.</li>
+              <li style={{ marginBottom: '8px' }}><i className="bi bi-house-door" style={{ color: 'var(--color-accent)', marginRight: '8px' }}></i><strong>LCI/LCA:</strong> Letras de Crédito focadas em Imóveis ou Agronegócio.</li>
             </ul>
 
             <h2>Renda Variável</h2>

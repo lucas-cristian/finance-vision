@@ -15,7 +15,7 @@ export default function Header() {
     <header className="header">
       <div className="container header__inner">
         <Link to="/" className="header__logo">
-          <span className="header__logo-icon">💰</span>
+          <i className="bi bi-wallet2 header__logo-icon"></i>
           FinanceVision
         </Link>
 

@@ -8,7 +8,10 @@ export default function Contatos() {
     <div>
       <section className="page-header">
         <div className="container">
-          <h1 className="page-header__title">Contatos</h1>
+          <h1 className="page-header__title">
+            <i className="bi bi-envelope-at-fill" style={{ marginRight: '12px' }}></i>
+            Contatos
+          </h1>
           <p className="page-header__breadcrumb">Home / Contatos</p>
         </div>
       </section>
@@ -25,21 +28,21 @@ export default function Contatos() {
               
               <div className="contact-details">
                 <div className="contact-detail">
-                  <div className="contact-detail__icon">📧</div>
+                  <div className="contact-detail__icon"><i className="bi bi-envelope"></i></div>
                   <div>
                     <span className="contact-detail__label">E-mail</span>
                     <span className="contact-detail__value">contato@financevision.com.br</span>
                   </div>
                 </div>
                 <div className="contact-detail">
-                  <div className="contact-detail__icon">📞</div>
+                  <div className="contact-detail__icon"><i className="bi bi-telephone"></i></div>
                   <div>
                     <span className="contact-detail__label">Telefone</span>
                     <span className="contact-detail__value">(11) 99999-9999</span>
                   </div>
                 </div>
                 <div className="contact-detail">
-                  <div className="contact-detail__icon">📍</div>
+                  <div className="contact-detail__icon"><i className="bi bi-geo-alt"></i></div>
                   <div>
                     <span className="contact-detail__label">Endereço</span>
                     <span className="contact-detail__value">Av. Paulista, 1000 - São Paulo, SP</span>
@@ -62,7 +65,9 @@ export default function Contatos() {
                   <label htmlFor="message">Mensagem</label>
                   <textarea id="message" className="form-control" rows="5" placeholder="Como podemos ajudar?" required></textarea>
                 </div>
-                <button type="submit" className="btn-submit">Enviar Mensagem</button>
+                <button type="submit" className="btn-submit">
+                  Enviar Mensagem <i className="bi bi-send" style={{ marginLeft: '8px' }}></i>
+                </button>
               </form>
             </div>
           </div>

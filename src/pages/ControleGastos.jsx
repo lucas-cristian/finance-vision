@@ -2,17 +2,20 @@ import SectionTitle from '../components/SectionTitle';
 
 export default function ControleGastos() {
   const tips = [
-    { icon: "📝", title: "Anote tudo", desc: "Desde o cafézinho até as contas fixas. Use apps ou uma planilha simples." },
-    { icon: "⚖️", title: "A regra 50-30-20", desc: "50% para necessidades, 30% para desejos e 20% para dívidas ou investimentos." },
-    { icon: "🛒", title: "Consumo Consciente", desc: "Antes de comprar, pergunte-se: Eu preciso disso? Eu posso pagar agora?" },
-    { icon: "🎯", title: "Tenha Metas", desc: "Fica mais fácil economizar quando você tem um objetivo claro, como uma viagem ou um curso." }
+    { icon: <i className="bi bi-pencil-square" style={{ color: 'var(--color-accent)' }}></i>, title: "Anote tudo", desc: "Desde o cafézinho até as contas fixas. Use apps ou uma planilha simples." },
+    { icon: <i className="bi bi-pie-chart" style={{ color: 'var(--color-accent)' }}></i>, title: "A regra 50-30-20", desc: "50% para necessidades, 30% para desejos e 20% para dívidas ou investimentos." },
+    { icon: <i className="bi bi-cart-check" style={{ color: 'var(--color-accent)' }}></i>, title: "Consumo Consciente", desc: "Antes de comprar, pergunte-se: Eu preciso disso? Eu posso pagar agora?" },
+    { icon: <i className="bi bi-trophy" style={{ color: 'var(--color-accent)' }}></i>, title: "Tenha Metas", desc: "Fica mais fácil economizar quando você tem um objetivo claro, como uma viagem ou um curso." }
   ];
 
   return (
     <div>
       <section className="page-header">
         <div className="container">
-          <h1 className="page-header__title">Controle de Gastos</h1>
+          <h1 className="page-header__title">
+            <i className="bi bi-wallet2" style={{ marginRight: '12px' }}></i>
+            Controle de Gastos
+          </h1>
           <p className="page-header__breadcrumb">Home / Controle de Gastos</p>
         </div>
       </section>
