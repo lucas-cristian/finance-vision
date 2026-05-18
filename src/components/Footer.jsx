@@ -8,7 +8,7 @@ export default function Footer() {
           <div>
             <div className="footer__brand">
               <i className="bi bi-wallet2" style={{ marginRight: '8px', color: 'var(--color-accent)' }}></i>
-              FinanceVision
+              Finance Vision
             </div>
             <p className="footer__desc">
               Sua jornada para a liberdade financeira começa aqui. Conteúdo educativo, 
@@ -38,7 +38,7 @@ export default function Footer() {
         </div>
 
         <div className="footer__bottom">
-          <p>&copy; {new Date().getFullYear()} FinanceVision — Projeto Acadêmico AOP2. Todos os direitos reservados.</p>
+          <p>&copy; {new Date().getFullYear()} Finance Vision — Projeto Acadêmico AOP2. Todos os direitos reservados.</p>
         </div>
       </div>
     </footer>

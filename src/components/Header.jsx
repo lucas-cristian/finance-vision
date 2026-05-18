@@ -16,7 +16,7 @@ export default function Header() {
       <div className="container header__inner">
         <Link to="/" className="header__logo">
           <i className="bi bi-wallet2 header__logo-icon"></i>
-          FinanceVision
+          Finance Vision
         </Link>
 
         <nav className="nav">
