@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import emailjs from '@emailjs/browser';
+import { toast } from 'react-toastify';
 
 export default function Contatos() {
   const [isSending, setIsSending] = useState(false);
@@ -30,11 +31,11 @@ export default function Contatos() {
         templateParams,
         import.meta.env.VITE_EMAILJS_PUBLIC_KEY
       );
-      alert('Mensagem enviada com sucesso!');
+      toast.success('Mensagem enviada com sucesso!');
       form.reset();
     } catch (error) {
       console.error('Erro ao enviar mensagem:', error);
-      alert('Nao foi possivel enviar. Tente novamente em instantes.');
+      toast.error('Nao foi possivel enviar. Tente novamente em instantes.');
     } finally {
       setIsSending(false);
     }
