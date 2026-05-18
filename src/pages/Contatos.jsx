@@ -1,0 +1,73 @@
+export default function Contatos() {
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    alert('Mensagem enviada com sucesso! (Simulação acadêmica)');
+  };
+
+  return (
+    <div>
+      <section className="page-header">
+        <div className="container">
+          <h1 className="page-header__title">Contatos</h1>
+          <p className="page-header__breadcrumb">Home / Contatos</p>
+        </div>
+      </section>
+
+      <section className="section">
+        <div className="container">
+          <div className="contact-grid">
+            <div className="contact-info">
+              <h2>Fale com a gente</h2>
+              <p>
+                Tem alguma dúvida sobre o conteúdo do blog ou sugestão de tema para as próximas postagens? 
+                Estamos aqui para ajudar na sua jornada financeira.
+              </p>
+              
+              <div className="contact-details">
+                <div className="contact-detail">
+                  <div className="contact-detail__icon">📧</div>
+                  <div>
+                    <span className="contact-detail__label">E-mail</span>
+                    <span className="contact-detail__value">contato@financevision.com.br</span>
+                  </div>
+                </div>
+                <div className="contact-detail">
+                  <div className="contact-detail__icon">📞</div>
+                  <div>
+                    <span className="contact-detail__label">Telefone</span>
+                    <span className="contact-detail__value">(11) 99999-9999</span>
+                  </div>
+                </div>
+                <div className="contact-detail">
+                  <div className="contact-detail__icon">📍</div>
+                  <div>
+                    <span className="contact-detail__label">Endereço</span>
+                    <span className="contact-detail__value">Av. Paulista, 1000 - São Paulo, SP</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className="contact-form">
+              <form onSubmit={handleSubmit}>
+                <div className="form-group">
+                  <label htmlFor="name">Nome Completo</label>
+                  <input type="text" id="name" className="form-control" placeholder="Seu nome" required />
+                </div>
+                <div className="form-group">
+                  <label htmlFor="email">E-mail</label>
+                  <input type="email" id="email" className="form-control" placeholder="seu@email.com" required />
+                </div>
+                <div className="form-group">
+                  <label htmlFor="message">Mensagem</label>
+                  <textarea id="message" className="form-control" rows="5" placeholder="Como podemos ajudar?" required></textarea>
+                </div>
+                <button type="submit" className="btn-submit">Enviar Mensagem</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  );
+}
