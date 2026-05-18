@@ -276,6 +276,10 @@ ul { list-style: none; }
   margin-bottom: 3.5rem;
 }
 
+.content-block .section-title {
+  margin-bottom: 1.75rem;
+}
+
 .section-title__label {
   display: inline-block;
   color: var(--color-accent);
