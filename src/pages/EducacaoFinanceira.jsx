@@ -9,7 +9,6 @@ export default function EducacaoFinanceira() {
             <i className="bi bi-mortarboard-fill" style={{ marginRight: '12px' }}></i>
             Educação Financeira
           </h1>
-          <p className="page-header__breadcrumb">Home / Educação Financeira</p>
         </div>
       </section>
 

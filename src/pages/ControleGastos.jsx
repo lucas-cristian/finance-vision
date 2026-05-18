@@ -16,7 +16,6 @@ export default function ControleGastos() {
             <i className="bi bi-wallet2" style={{ marginRight: '12px' }}></i>
             Controle de Gastos
           </h1>
-          <p className="page-header__breadcrumb">Home / Controle de Gastos</p>
         </div>
       </section>
 

@@ -449,11 +449,6 @@ ul { list-style: none; }
   margin-bottom: 1rem;
 }
 
-.page-header__breadcrumb {
-  font-size: 0.9rem;
-  color: rgba(255,255,255,0.6);
-}
-
 /* ===== FORM ===== */
 .contact-grid {
   display: grid;

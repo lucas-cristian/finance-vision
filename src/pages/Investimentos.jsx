@@ -9,7 +9,6 @@ export default function Investimentos() {
             <i className="bi bi-graph-up-arrow" style={{ marginRight: '12px' }}></i>
             Investimentos
           </h1>
-          <p className="page-header__breadcrumb">Home / Investimentos</p>
         </div>
       </section>
 

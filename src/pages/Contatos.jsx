@@ -12,7 +12,6 @@ export default function Contatos() {
             <i className="bi bi-envelope-at-fill" style={{ marginRight: '12px' }}></i>
             Contatos
           </h1>
-          <p className="page-header__breadcrumb">Home / Contatos</p>
         </div>
       </section>
 
