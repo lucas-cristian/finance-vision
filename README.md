@@ -72,6 +72,7 @@ O blog possui 5 páginas principais:
 finance-vision/
 ├── index.html
 ├── package.json
+├── vercel.json
 ├── vite.config.js
 └── src/
     ├── main.jsx
